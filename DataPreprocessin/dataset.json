@@ -1,0 +1,136 @@
+{
+  "traffic_records": [
+    {
+      "timestamp": "2023-01-01T08:00:00",
+      "http_method": "GET",
+      "requested_url": "https://example.com/page1",
+      "http_status_code": 200,
+      "source_ip": "192.168.1.1",
+      "destination_port": 443,
+      "protocol": "HTTPS",
+      "response_size": 1245,
+      "rule_name": "SuspiciousPattern",
+      "detection_type": "Anomaly"
+    },
+    {
+      "timestamp": "2023-01-01T08:05:00",
+      "http_method": "POST",
+      "requested_url": "https://example.com/login",
+      "http_status_code": 401,
+      "source_ip": "192.168.1.2",
+      "destination_port": 443,
+      "protocol": "HTTPS",
+      "response_size": 0,
+      "rule_name": "FailedLoginAttempts",
+      "detection_type": "SecurityEvent"
+    },
+    {
+      "timestamp": "2023-01-01T08:00:00",
+      "http_method": "GET",
+      "requested_url": "https://example.com/page1",
+      "http_status_code": 200,
+      "source_ip": "192.168.1.1",
+      "destination_port": 443,
+      "protocol": "HTTPS",
+      "response_size": 1245,
+      "rule_name": "SuspiciousPattern",
+      "detection_type": "Anomaly"
+    },
+    {
+      "timestamp": "2023-01-01T08:05:00",
+      "http_method": "POST",
+      "requested_url": "https://example.com/login",
+      "http_status_code": 401,
+      "source_ip": "192.168.1.2",
+      "destination_port": 443,
+      "protocol": "HTTPS",
+      "response_size": null,
+      "rule_name": "FailedLoginAttempts",
+      "detection_type": "SecurityEvent"
+    },
+    {
+      "timestamp": "2023-01-01T08:10:00",
+      "http_method": "GET",
+      "requested_url": "https://example.com/page2",
+      "http_status_code": 404,
+      "source_ip": "192.168.1.3",
+      "destination_port": 443,
+      "protocol": "HTTPS",
+      "response_size": 0,
+      "rule_name": null,
+      "detection_type": "Error"
+    },
+    {
+      "timestamp": "2023-01-01T08:15:00",
+      "http_method": null,
+      "requested_url": "https://example.com/page3",
+      "http_status_code": 500,
+      "source_ip": "192.168.1.4",
+      "destination_port": 80,
+      "protocol": "HTTP",
+      "response_size": 2048,
+      "rule_name": "ServerError",
+      "detection_type": "Error"
+    },
+    {
+      "timestamp": "2023-01-01T08:10:00",
+      "http_method": "GET",
+      "requested_url": "https://example.com/page2",
+      "http_status_code": 404,
+      "source_ip": "192.168.1.3",
+      "destination_port": 443,
+      "protocol": "HTTPS",
+      "response_size": 0,
+      "rule_name": "PageNotFound",
+      "detection_type": "Error"
+    },
+    {
+      "timestamp": "2023-01-01T08:00:00",
+      "http_method": "GET",
+      "requested_url": "https://example.com/page1",
+      "http_status_code": 200,
+      "source_ip": "192.168.1.1",
+      "destination_port": 443,
+      "protocol": "HTTPS",
+      "response_size": 1245,
+      "rule_name": "SuspiciousPattern",
+      "detection_type": "Anomaly"
+    },
+    {
+      "timestamp": "2023-01-01T08:05:00",
+      "http_method": "POST",
+      "requested_url": "https://example.com/login",
+      "http_status_code": 401,
+      "source_ip": "192.168.1.2",
+      "destination_port": 443,
+      "protocol": "HTTPS",
+      "response_size": null,
+      "rule_name": "FailedLoginAttempts",
+      "detection_type": "SecurityEvent"
+    },
+    {
+      "timestamp": "2023-01-01T08:10:00",
+      "http_method": "GET",
+      "requested_url": "https://example.com/page2",
+      "http_status_code": 404,
+      "source_ip": "192.168.1.3",
+      "destination_port": 443,
+      "protocol": "HTTPS",
+      "response_size": 0,
+      "rule_name": null,
+      "detection_type": "Error"
+    },
+    {
+      "timestamp": "2023-01-01T08:15:00",
+      "http_method": null,
+      "requested_url": "https://example.com/page3",
+      "http_status_code": 400,
+      "source_ip": "192.168.1.4",
+      "destination_port": 80,
+      "protocol": "HTTP",
+      "response_size": 1048,
+      "rule_name": "ServerError",
+      "detection_type": "Error"
+    }
+  ]
+}
