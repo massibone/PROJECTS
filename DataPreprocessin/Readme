@@ -1,0 +1,5 @@
+Questa cartella contiene un programma Python e un file JSON per eseguire la pre-elaborazione dei dati.
+Il programma carica i dati dal file JSON e esegue operazioni di gestione dei valori mancanti e codifica delle variabili categoriali. 
+Tuttavia, al momento, il programma mostra degli avvisi e errori relativi a future modifiche nelle librerie utilizzate, insieme a problemi di dimensione dei dati durante la fase di codifica delle variabili categoriali. 
+I messaggi di errore indicano la necessità di rivisitare l'implementazione del programma per garantire un funzionamento corretto e aderente agli standard futuri delle librerie utilizzate.
+
