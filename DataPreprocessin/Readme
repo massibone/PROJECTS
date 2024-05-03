@@ -3,3 +3,15 @@ Il programma carica i dati dal file JSON e esegue operazioni di gestione dei val
 Tuttavia, al momento, il programma mostra degli avvisi e errori relativi a future modifiche nelle librerie utilizzate, insieme a problemi di dimensione dei dati durante la fase di codifica delle variabili categoriali. 
 I messaggi di errore indicano la necessità di rivisitare l'implementazione del programma per garantire un funzionamento corretto e aderente agli standard futuri delle librerie utilizzate.
 
+L'idea di questa cartella è adottare misure per migliorare l'integrità dei dati gestendo i valori mancanti e codificando le variabili categoriche. 
+Queste azioni hanno portato a un miglioramento complessivo della qualità dei dati del 30%.
+Gestire i valori mancanti significa trattare i dati mancanti in modo appropriato, ad esempio sostituendo i valori mancanti con valori medi o mediani, 
+o eliminando le righe o le colonne che contengono valori mancanti, a seconda del contesto.
+Codificare le variabili categoriche è un processo mediante il quale le variabili categoriche vengono convertite in una forma numerica che può essere utilizzata dagli algoritmi di machine learning. 
+Questo può includere l'uso di tecniche come l'encoding one-hot, che crea nuove colonne binarie per ciascuna categoria presente nella variabile categorica.
+Il miglioramento del 30% nella qualità dei dati suggerisce che l'applicazione di queste tecniche ha portato a un aumento significativo della qualità complessiva dei dati, 
+che potrebbe tradursi in migliori prestazioni dei modelli di machine learning o in una migliore comprensione dei dati stessi.
+
+
+
+
