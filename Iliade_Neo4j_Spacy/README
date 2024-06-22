@@ -1,0 +1,67 @@
+Analisi e predizione del testo con Neo4j e spaCy: un caso studio sull'Iliade
+
+Introduzione
+L'Iliade di Omero, con i suoi oltre 15.000 versi, è un'opera monumentale ricca di storie, personaggi ed eventi epici. Questo progetto di tesi si propone di analizzare il testo dell'Iliade utilizzando i potenti strumenti di Neo4j e spaCy per creare un modello di linguaggio in grado di prevedere la parola successiva in una sequenza.
+
+Obiettivi
+
+Gli obiettivi principali di questa tesi sono:
+
+Creare un modello di linguaggio per l'Iliade: Sfruttando le capacità di Neo4j e spaCy, si realizzerà un modello che rappresenti il testo dell'Iliade in modo strutturato e informativo.
+Prevedere la parola successiva: Il modello verrà utilizzato per prevedere la parola successiva in una sequenza di testo, basandosi sul contesto precedente e sulle relazioni linguistiche identificate.
+Visualizzare i risultati: Si realizzeranno visualizzazioni informative utilizzando Matplotlib per rappresentare le caratteristiche del grafo, le frequenze delle parole, le distribuzioni di grado e le probabilità previste per la parola successiva.
+Importanza e Impatto del Progetto
+
+Questo progetto va oltre la semplice analisi testuale e assume un'importanza significativa per diversi motivi:
+
+1. Sviluppo di modelli linguistici avanzati: Il progetto contribuirà alla creazione di modelli di linguaggio più sofisticati in grado di analizzare e comprendere testi complessi come l'Iliade. Questi modelli potranno essere applicati in svariati ambiti, come la traduzione automatica, la generazione di testi e l'analisi del sentiment, con un potenziale impatto in diversi settori.
+
+2. Strumenti per la ricerca filologica: I risultati del progetto potranno essere utilizzati per creare strumenti innovativi per la ricerca filologica. Questi strumenti faciliteranno l'analisi di testi antichi, la scoperta di nuove connessioni e significati, e la promozione di una più profonda comprensione del patrimonio culturale letterario.
+
+3. Applicazioni educative: L'analisi del testo dell'Iliade con Neo4j e spaCy può essere utilizzata per sviluppare nuove modalità di insegnamento della letteratura classica. Queste modalità innovative renderanno l'apprendimento più coinvolgente e interattivo per gli studenti, promuovendo un approccio più attivo e stimolante allo studio.
+
+4. Conservazione del patrimonio culturale: Il progetto contribuirà alla conservazione del patrimonio culturale rappresentato dall'Iliade. L'analisi e la digitalizzazione del testo permetteranno di preservarlo per le generazioni future e di renderlo accessibile a un pubblico più ampio, promuovendo la fruizione e la valorizzazione di un'opera letteraria di inestimabile valore.
+
+Metodologia
+
+La metodologia si articola nelle seguenti fasi:
+
+1. Analisi del testo:
+
+Caricamento del testo dell'Iliade in Neo4j.
+Suddivisione del testo in parole.
+Creazione di un grafo di parole in Neo4j, con relazioni "FOLLOWS" tra parole consecutive.
+Arricchimento del grafo con informazioni linguistiche avanzate utilizzando spaCy (lemma, PoS tag, relazioni di dipendenza).
+2. Predizione della parola successiva:
+
+Implementazione di un modello di Markov di ordine n per la predizione della parola successiva, sfruttando il grafo di parole e le informazioni di spaCy.
+Allenamento del modello sui dati dell'Iliade.
+3. Visualizzazione dei risultati:
+
+Generazione di grafici statici informativi con Matplotlib per visualizzare:
+Frequenza delle parole
+Distribuzione del grado
+Clustering coefficient
+Probabilità previste per la parola successiva
+Altri grafici a discrezione per visualizzare le informazioni del grafo e del modello
+Risultati attesi
+
+Ci si attende di ottenere i seguenti risultati:
+
+Un modello di linguaggio per l'Iliade che integra le capacità di Neo4j e spaCy.
+Un modello in grado di prevedere la parola successiva con accuratezza.
+Visualizzazioni informative dei risultati che offrono una comprensione approfondita del testo e del modello.
+Futuri sviluppi
+
+Il progetto potrà essere ulteriormente sviluppato in diverse direzioni:
+
+1. Analisi comparativa con altri poemi epici:
+
+Ampliare l'analisi includendo altri poemi epici della letteratura greca o di altre culture, come l'Odissea, l'Eneide o la Ramayana.
+Creare modelli di linguaggio per questi poemi e confrontarli con il modello dell'Iliade per identificare similarità e differenze a livello linguistico e strutturale.
+Esplorare come le diverse culture e tradizioni epiche si riflettono nelle caratteristiche linguistiche dei testi.
+2. Sviluppo di un sistema di generazione di testi in stile omerico:
+
+Utilizzare il modello di linguaggio dell'Iliade e le tecniche di deep learning per creare un sistema in grado di generare nuovi testi in stile omerico.
+Esplorare diverse modalità di generazione, come la creazione di versi completi, la continuazione di storie esistenti o la composizione di nuovi poemi epici.
+Valutare l'accuratezza e la coerenza stilistica dei testi generati rispetto all'Iliade originale.
