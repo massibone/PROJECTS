@@ -1,0 +1,4 @@
+REST (Representational State Transfer):
+Utilizza i metodi standard HTTP (GET, POST, PUT, DELETE).
+È stateless, il che significa che ogni richiesta dal client al server deve contenere tutte le informazioni necessarie per comprendere e processare la richiesta.
+È molto utilizzata per la sua semplicità e scalabilità.
