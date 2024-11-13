@@ -1,1 +1,1 @@
-
+Sviluppo di un generatore di musica MIDI in Python. L'idea è di emulare la capacità di Archaeopteryx di creare composizioni musicali complesse e innovative. Attualmente, il codice produce una semplice melodia costituita da una nota ripetuta per un periodo di tempo definito. Prossimi sviluppi includeranno l'implementazione di algoritmi più sofisticati per la generazione di melodie e armonie, l'integrazione di scale musicali e la possibilità di personalizzare i parametri della generazione.
