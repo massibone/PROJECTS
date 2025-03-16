@@ -3,6 +3,7 @@ Il programma carica i dati dal file JSON e esegue operazioni di gestione dei val
 Tuttavia, al momento, il programma mostra degli avvisi e errori relativi a future modifiche nelle librerie utilizzate, insieme a problemi di dimensione dei dati durante la fase di codifica delle variabili categoriali. 
 I messaggi di errore indicano la necessità di rivisitare l'implementazione del programma per garantire un funzionamento corretto e aderente agli standard futuri delle librerie utilizzate.
 
+
 L'idea di questa cartella è adottare misure per migliorare l'integrità dei dati gestendo i valori mancanti e codificando le variabili categoriche. 
 Queste azioni hanno portato a un miglioramento complessivo della qualità dei dati del 30%.
 Gestire i valori mancanti significa trattare i dati mancanti in modo appropriato, ad esempio sostituendo i valori mancanti con valori medi o mediani, 
