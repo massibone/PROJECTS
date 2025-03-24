@@ -1,7 +1,9 @@
 Analisi e predizione del testo con Neo4j e spaCy: un caso studio sull'Iliade
 
 Introduzione
-L'Iliade di Omero, con i suoi oltre 15.000 versi, è un'opera monumentale ricca di storie, personaggi ed eventi epici. Questo progetto di tesi si propone di analizzare il testo dell'Iliade utilizzando i potenti strumenti di Neo4j e spaCy per creare un modello di linguaggio in grado di prevedere la parola successiva in una sequenza.
+L'Iliade di Omero, con i suoi oltre 15.000 versi, è un'opera monumentale ricca di storie, personaggi ed eventi epici. 
+Questo progetto di tesi si propone di analizzare il testo dell'Iliade utilizzando i potenti strumenti di Neo4j e spaCy 
+per creare un modello di linguaggio in grado di prevedere la parola successiva in una sequenza.
 
 Obiettivi
 
