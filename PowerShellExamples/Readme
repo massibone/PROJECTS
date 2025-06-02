@@ -3,3 +3,4 @@ The "PowerShellExamples" repository contains a collection of concise code exampl
 PowerShell can also run scripts without a specific extension or with other extensions, depending on the execution environment configuration. However, for convention and to facilitate file type recognition, the ".ps1" extension is widely used for PowerShell scripts.
 --
 PowerShell può eseguire anche script senza estensione specifica o con altre estensioni, a seconda della configurazione dell'ambiente di esecuzione. Tuttavia, per convenzione e per facilitare il riconoscimento del tipo di file, l'estensione ".ps1" è ampiamente utilizzata per gli script PowerShell.
+
