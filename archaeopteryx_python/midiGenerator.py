@@ -3,7 +3,6 @@ import time
 import random
 from music21 import stream, instrument, note, converter
 
-
 # Apri un porta MIDI virtuale
 #out_port = mido.open_output('My virtual port')
 
