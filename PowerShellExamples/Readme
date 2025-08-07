@@ -1,4 +1,5 @@
-The "PowerShellExamples" repository contains a collection of concise code examples in PowerShell. These examples cover a wide range of scenarios and functionalities, offering users a practical opportunity to learn and experiment with the PowerShell language. Each example is documented to facilitate understanding and learning, providing a starting point for developing custom solutions and automating system administration tasks.
+The "PowerShellExamples" repository contains a collection of concise code examples in PowerShell. 
+These examples cover a wide range of scenarios and functionalities, offering users a practical opportunity to learn and experiment with the PowerShell language. Each example is documented to facilitate understanding and learning, providing a starting point for developing custom solutions and automating system administration tasks.
 
 PowerShell can also run scripts without a specific extension or with other extensions, depending on the execution environment configuration. However, for convention and to facilitate file type recognition, the ".ps1" extension is widely used for PowerShell scripts.
 --
