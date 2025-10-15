@@ -1,3 +1,4 @@
+# invia una richiesta POST con dati JSON
 import requests
 
 data = {'title': 'foo', 'body': 'bar', 'userId': 1}
