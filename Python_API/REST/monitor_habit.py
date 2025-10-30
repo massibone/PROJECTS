@@ -11,4 +11,3 @@ GET /habits/{id}/logs: restituisce i log delle attività relative a un'abitudine
 POST /habits/{id}/logs: registra una nuova attività per un'abitudine specifica
 '''
 
-
