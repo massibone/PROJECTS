@@ -1,0 +1,13 @@
+pycache/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+### Note
+- **API Key:** CoinGecko non richiede una chiave per questo endpoint, ma se fai molte richieste potresti volerla aggiungere.
+- **Email:** Per inviare email, configura i parametri SMTP con i dati del tuo provider (es. Gmail, Outlook).
+- **Sicurezza:** Non committare password o chiavi API su GitHub. Usa variabili d’ambiente o un file `.env` (es. con `python-dotenv`).
