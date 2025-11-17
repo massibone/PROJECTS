@@ -1,1 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-multipart
+Installa le dipendenze con:
+bash
 
+pip install -r requirements.txt
