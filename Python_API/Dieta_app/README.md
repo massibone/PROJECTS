@@ -14,3 +14,8 @@ Utilizzeremo FastAPI (un framework moderno, veloce e facile da usare per creare 
 ├── crud.py          # Operazioni CRUD sul database
 ├── schemas.py       # Schemi Pydantic per input/output
 └── requirements.txt # Dipendenze
+
+Avvio dell’API
+
+uvicorn main:app --reload
+L’API sarà disponibile su http://127.0.0.1:8000. Puoi testare gli endpoint con strumenti come Postman o curl.
