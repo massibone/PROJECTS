@@ -1,10 +1,19 @@
-Monitoraggio prezzi
-Configurazione Email: Definisci le impostazioni per inviare notifiche via email quando il prezzo scende.
-Funzioni di Prezzo:
-get_price_amazon e get_price_ebay: Funzioni per ottenere il prezzo del prodotto. Dovrai completare l'integrazione con le rispettive API.
-Notifica Prezzo:
-La funzione notify_price_drop controlla se il nuovo prezzo è inferiore del 10% rispetto al prezzo precedente. In caso affermativo, invia una notifica.
-Registrazione Prezzi:
-record_price salva il prezzo attuale in un file CSV.
-Main:
-Raccoglie i prezzi da Amazon e eBay, salva i dati e invia notifiche se necessario.
+# Price Monitor
+
+Script Python per il monitoraggio dei prezzi di un prodotto su Amazon ed eBay,
+con salvataggio storico su CSV e notifica email in caso di ribasso.
+
+## Funzionalità
+- Recupero prezzi (API placeholder)
+- Storico prezzi in CSV
+- Notifica email se il prezzo scende di almeno il 10%
+- Supporto multi-sorgente (Amazon / eBay)
+
+## Configurazione
+Impostare:
+- credenziali SMTP
+- indirizzi email
+- endpoint API reali (attualmente segnaposto)
+
+## File generato
+prezzi_nome_prodotto.csv
