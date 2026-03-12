@@ -5,3 +5,19 @@ PowerShell can also run scripts without a specific extension or with other exten
 --
 PowerShell può eseguire anche script senza estensione specifica o con altre estensioni, a seconda della configurazione dell'ambiente di esecuzione. Tuttavia, per convenzione e per facilitare il riconoscimento del tipo di file, l'estensione ".ps1" è ampiamente utilizzata per gli script PowerShell.
 
+---------
+PowerShell & Python: Automazione e Sviluppo
+Questo documento illustra l'utilità di apprendere PowerShell e Python, evidenziando come entrambi i linguaggi possano potenziare le capacità di scripting e automazione attraverso un approccio di apprendimento associativo
+.
+
+Entrambi sono linguaggi di scripting interattivi progettati per automatizzare attività che altrimenti richiederebbero interventi manuali
+.
+PowerShell
+Gestione di Piattaforme: È lo strumento ideale per gestire qualsiasi piattaforma IT grazie alla sua natura intuitiva e alla robustezza dei comandi concatenati tramite pipeline
+.
+Amministrazione di Sistema: Nato per gli amministratori, permette una gestione profonda del sistema operativo e delle infrastrutture
+.
+Python
+Versatilità Professionale: È un linguaggio maturo essenziale in settori all'avanguardia come DevOps, Cloud, Data Science, Intelligenza Artificiale (AI) e Machine Learning
+.
+Sviluppo Software: Offre una prospettiva di programmazione pura, utile anche agli amministratori di sistema per comprendere concetti informatici più profondi
