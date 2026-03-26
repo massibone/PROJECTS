@@ -30,7 +30,6 @@ encoded_data = encoder.fit_transform(df[categorical_cols])
 # Creazione di un DataFrame per i dati codificati
 encoded_df = pd.DataFrame(encoded_data, columns=encoder.get_feature_names_out(categorical_cols))
 
-
 # Eliminazione delle colonne categoriali dal DataFrame originale
 df.drop(columns=categorical_cols, inplace=True)
 
