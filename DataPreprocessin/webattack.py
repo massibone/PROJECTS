@@ -39,3 +39,4 @@ df = pd.concat([df, encoded_df], axis=1)
 
 # Salvataggio del DataFrame pre-elaborato come file JSON
 df.to_json('preprocessed_data.json', orient='records')
+
