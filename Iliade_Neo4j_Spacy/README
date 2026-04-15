@@ -5,7 +5,7 @@ L'Iliade di Omero, con i suoi oltre 15.000 versi, è un'opera monumentale ricca 
 Questo progetto di tesi si propone di analizzare il testo dell'Iliade utilizzando i potenti strumenti di Neo4j e spaCy 
 per creare un modello di linguaggio in grado di prevedere la parola successiva in una sequenza.
 
-Obiettivi
+## Obiettivi
 
 Gli obiettivi principali di questa tesi sono:
 
