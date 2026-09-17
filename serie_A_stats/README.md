@@ -17,3 +17,4 @@ python main.py --date YYYYMMDD
 | 2026-04-02 | Juventus | Milan | 2-1 | Gioc1 (J), Gioc2 (M) |
 
 
+
