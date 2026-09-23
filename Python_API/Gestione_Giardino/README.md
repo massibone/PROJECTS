@@ -18,3 +18,4 @@ API per la gestione di un giardino intelligente tramite sensori e attuatori IoT.
 - `PUT /attuatori/<id>` - Aggiorna un attuatore
 - `DELETE /attuatori/<id>` - Elimina un attuatore
 
+
