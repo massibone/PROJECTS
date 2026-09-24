@@ -9,6 +9,7 @@ per creare un modello di linguaggio in grado di prevedere la parola successiva i
 
 Gli obiettivi principali di questa tesi sono:
 
+
 Creare un modello di linguaggio per l'Iliade: Sfruttando le capacità di Neo4j e spaCy, si realizzerà un modello che rappresenti il testo dell'Iliade in modo strutturato e informativo.
 Prevedere la parola successiva: Il modello verrà utilizzato per prevedere la parola successiva in una sequenza di testo, basandosi sul contesto precedente e sulle relazioni linguistiche identificate.
 Visualizzare i risultati: Si realizzeranno visualizzazioni informative utilizzando Matplotlib per rappresentare le caratteristiche del grafo, 
