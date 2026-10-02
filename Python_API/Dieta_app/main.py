@@ -25,3 +25,4 @@ def create_pasto(pasto: schemas.PastoCreate, utente_id: int, db: Session = Depen
 @app.post("/liste_spesa/", response_model=schemas.ListaSpesaOut)
 def create_lista_spesa(lista: schemas.ListaSpesaCreate, utente_id: int, db: Session = Depends(get_db)):
     return crud.create_lista_spesa(db=db, lista=lista, utente_id=utente_id)
+
