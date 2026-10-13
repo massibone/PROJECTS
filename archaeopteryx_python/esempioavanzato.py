@@ -1,4 +1,3 @@
-
 class GeneratoreMusicale:
     def __init__(self):
         self.scale = {
