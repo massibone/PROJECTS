@@ -1,5 +1,6 @@
 # 🍳 Recipe Management System
 
+
 Sistema OOP per gestire ricette culinarie con calcolo automatico di calorie e tempo di preparazione.
 
 ## 🎯 Funzionalità
